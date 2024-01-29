@@ -15,5 +15,6 @@ decrease.addEventListener('click',() => {
 });
 
 reset.addEventListener('click',()=> {
-    countVal.innerText = 0;
+    num = 0;
+    countVal.innerText = num;
 });
